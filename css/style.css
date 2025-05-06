@@ -30,12 +30,9 @@ html, body {
   --color-blanco: #FFFFFF;
   --color-acento: #FBBF24;
   --color-texto: #111827;
-  --shadow: 0 8px 32px rgba(30, 58, 138, 0.12), 0 1.5px 12px #fff3;
-  --login-bg: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
   --login-panel: #fff;
   --login-accent: #3b82f6;
   --login-accent2: #1e3a8a;
-  --login-shadow: 0 8px 32px rgba(30,58,138,0.10), 0 1.5px 12px #fff3;
   --login-txt: #1a2233;
 
 
@@ -360,7 +357,7 @@ html, body {
 .contacto-container {
   background: var(--color-blanco);
   border-radius: 1.5rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 8px 32px rgba(30, 58, 138, 0.12), 0 1.5px 12px #fff3;;
   padding: 2.5rem 2rem 2rem 2rem;
   width: 53%;
   margin: 1.5rem auto;
@@ -526,7 +523,7 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: 3rem 1rem;
-  background: var(--login-bg);
+  background:linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
   margin: 0;
   font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
   color: var(--login-txt);
@@ -534,7 +531,7 @@ html, body {
 .login-container {
   background: var(--login-panel);
   border-radius: 1.4rem;
-  box-shadow: var(--login-shadow);
+  box-shadow: 0 8px 32px rgba(30,58,138,0.10), 0 1.5px 12px #fff3;
   padding: 2.8rem 2.2rem 2.2rem 2.2rem;
   width: 53%;
   margin: 1.5rem auto;
