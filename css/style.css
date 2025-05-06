@@ -4,7 +4,6 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  scroll-padding-top: 56px;
 }
 
 
@@ -17,13 +16,6 @@ html, body {
   --color-btn-hover-end: #ffd600;
   --color-text-light: #0a0909bf;
   --color-text-dark: #222;
-  --max-container-width: 70rem;
-  --font-size-h1: 2rem;
-  --font-size-intro: 1.3rem;
-  --btn-font-size: 1.15rem;
-  --btn-padding: 0.85rem 2.1rem;
-  --btn-border-radius: 8px;
-  --intro-spacing: 1.5rem;
   --about-bg-start: #fcede0;
   --about-bg-end: #cfdef3;
   --about-bg-accent: #a1c4fd;
@@ -32,7 +24,6 @@ html, body {
   --about-card-bg: #fff;
   --about-card-border: #a1c4fd;
   --about-card-icon: #5f9eff;
-  --container-max-width: 750px;
   --color-primario: #122c4fcf;
   --color-secundario: #051c45ed;
   --color-fondo: #F3F4F6;
@@ -45,7 +36,6 @@ html, body {
   --login-accent: #3b82f6;
   --login-accent2: #1e3a8a;
   --login-shadow: 0 8px 32px rgba(30,58,138,0.10), 0 1.5px 12px #fff3;
-  --login-radius: 1.4rem;
   --login-txt: #1a2233;
 
 
@@ -69,7 +59,7 @@ html, body {
 
 }
 .section-inicio .container {
-  max-width: var(--max-container-width);
+  max-width: 70rem;
   margin: 0 auto;
   padding: 1.25rem 0.5rem;
   display: flex;
@@ -80,7 +70,7 @@ html, body {
 
 }
 .section-inicio h1 {
-  font-size: var(--font-size-h1);
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--color-text-light);
   text-align: center;
@@ -91,13 +81,13 @@ html, body {
   text-align: center;
 }
 .intro {
-  font-size: var(--font-size-intro);
+  font-size: 1.3rem;
   text-align: justify;
   margin: 0 auto;
 
 }
 .intro + .intro {
-  margin-top: var(--intro-spacing);
+  margin-top: 1.5rem;
 }
 .intro span{
   font-weight: bold;
@@ -137,10 +127,10 @@ html, body {
   border: none;
   box-shadow: 0 2px 12px rgba(252, 92, 125, 0.33);
   font-size: var(--btn-font-size);
-  padding: var(--btn-padding);
+  padding: 0.85rem 2.1rem;
   margin-left: 0; 
   margin-top: 3rem;
-  border-radius: var(--btn-border-radius);
+  border-radius: 8px;
   text-decoration: none;
   transition: background 0.3s, color 0.3s, transform 0.18s;
   display: inline-block;
@@ -194,7 +184,7 @@ html, body {
   justify-content: center;
 }
 .container {
-  max-width: var(--container-max-width);
+  max-width: 750px;
   background: transparent;
   border-radius: 1.5rem;
   padding: 3rem 2rem 2.5rem 2rem;
@@ -543,7 +533,7 @@ html, body {
 }
 .login-container {
   background: var(--login-panel);
-  border-radius: var(--login-radius);
+  border-radius: 1.4rem;
   box-shadow: var(--login-shadow);
   padding: 2.8rem 2.2rem 2.2rem 2.2rem;
   width: 53%;

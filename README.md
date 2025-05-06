@@ -122,6 +122,12 @@ Incluye enlaces a redes sociales con iconos SVG y la información legal.
 
 ---
 
+## Instalación y uso
+
+1. Clona este repositorio: git clone https://github.com/Najwaelqortobi/Prueba_Technica.git
+2. Abre el archivo `index.html`.
+3. Para desarrollo, edita los archivos y recarga el navegador para ver los cambios.
+---
 
 
 ## autor y datos de contacto
