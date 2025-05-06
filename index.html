@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="conocimiento digital, aprendizaje online,transformación digital">
+  <meta name="description" content="Conecta Saber Digital: Descubre cómo la digitalización transforma el aprendizaje, la enseñanza y la difusión del conocimiento.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conecta Saber Digital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+  <div class="container-fluid">
+  <a class="navbar-brand fw-bold" href="#home">Conecta Saber Digital</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+  <span class="navbar-toggler-icon" ></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+  <ul class="navbar-nav mb-2 mb-lg-0">
+    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#galeria">Gallery</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contacto">Contact</a></li>
+    <li class="nav-item"><a class="nav-link" href="#login" id="login-link">Login</a></li>
+  </ul>
+    <span id="user-navbar" class="navbar-text ms-3 fw-bold text-warning" style="display:none;"></span>
+    <button id="logout-btn" class="btn btn-outline-warning ms-3" style="display:none;">Logout</button>
+  </div>
+    </div>
+  </nav>
+
+
+<section id="home" class="section-full section-inicio">
+  <div class="container">
+  <div class="inicio-texto">
+  <h1>Impulsando la nueva era del conocimiento digital</h1>
+  <p class="intro"> En <span>Conecta Saber Digital</span> te acompañamos a descubrir y aprovechar las oportunidades que brinda la digitalización para aprender, enseñar y compartir saber en comunidad.</p>
+  <p class="intro"> Plataformas digitales, cursos en línea y comunidades virtuales han eliminado las barreras geográficas y económicas, permitiendo que cualquier persona pueda acceder al conocimiento que antes estaba reservado para unos pocos.</p>
+  <div class="inicio-boton">
+  <a href="#about" class="btn btn-lg btn-impacto mt-3"><span class="btn-icon">🚀</span> Conócenos</a>
+  </div>        
+  </div> 
+  <div class="inicio-imagen">
+    <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=800&q=80" alt="Aprendizaje digital">
+  </div>
+  </div>
+</section>
+
+
+<section id="about" class="section-full about-section">
+  <div class="container">
+  <h2 class="title animate-title">Sobre Nosotros</h2>
+  <p class="intro-about animate-fadein">Somos un organismo dedicado a la formación y difusión del conocimiento en la era digital. Creemos en el poder de la tecnología para democratizar el saber y facilitar el aprendizaje colaborativo.</p>
+  <div class="cards animate-fadein">
+  <div class="about-card">
+  <span class="about-card-icon">&#9733;</span>
+  <p class="about-card-text">Cursos y talleres sobre competencias digitales.</p>
+  </div>
+  <div class="about-card">
+    <span class="about-card-icon">&#9733;</span>
+  <p class="about-card-text">Recursos gratuitos y eventos online.</p>
+  </div>
+  <div class="about-card">
+    <span class="about-card-icon">&#9733;</span>
+    <p class="about-card-text">Comunidad activa de aprendizaje y networking.</p>
+    </div>
+    <div class="about-card">
+    <span class="about-card-icon">&#9733;</span>
+    <p class="about-card-text">Asesoría para instituciones y empresas.</p>
+    </div>
+    </div>
+    <p class="mission"> Misión: Democratizar la creación y el acceso al conocimiento, formando ciudadanos digitales activos y críticos.</p>
+    </div>
+</section>
+  
+
+<section id="galeria" class="section-full galeria-section">
+  <div class="container">
+    <h2 class="galeria-title animate-title">Galería de Formaciones</h2>   
+    <div class="galeria-grid" id="galeria-grid">
+    <div class="galeria-item">
+    <img id="imagen-1" src="assets/imagines/Aprendizaje remoto.jpg" alt="Imagen 1" class="galeria-img">
+    </div>
+    <div class="galeria-item">
+    <img id="imagen-2" src="assets/imagines/Digital.jpg" alt="Imagen 2" class="galeria-img">
+    </div>
+    <div class="galeria-item">
+        <img id="imagen-3" src="assets/imagines/memory.jpg" alt="Imagen 3" class="galeria-img">
+    </div>
+    <div class="galeria-item">
+        <img id="imagen-6" src="assets/imagines/Videochat-image.jpg" alt="Imagen 4" class="galeria-img">
+        </div>
+     <div class="galeria-item">
+         <img id="imagen-4" src="assets/imagines/grp formacion.jpg" alt="Imagen 5" class="galeria-img">
+      </div>
+      <div class="galeria-item">
+          <img id="imagen-5" src="assets/imagines/libros electronicos.jpg" alt="Imagen 6" class="galeria-img">
+      </div>
+      </div>
+    </div>
+</section>
+  
+
+
+<section id="contacto" class="contacto-section section-full">
+  <div class="contacto-container">
+  <h2 class="contacto-title"><span class="contacto-icon">✉️</span>Contacto</h2>
+    <form id="contactForm" class="contacto-form" action="?enviado=true" method="GET">
+    <div class="campo">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
+    <div class="campo">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+    </div>
+    <div class="campo">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+    </div>
+    <div class="campo-check">
+        <input type="checkbox" id="privacidad" name="privacidad" required>
+        <label for="privacidad">Acepto la <a href="#" target="_blank">política de privacidad</a> y quiero recibir información sobre formaciones.</label>
+    <div id="info-extra" class="info-extra">
+        <span class="star">&#9733;</span> Recibirás novedades y recursos exclusivos para tu aprendizaje digital.
+    </div>
+    </div>
+    <button type="submit" class="btn-contacto">
+      <span>Enviar</span>
+    </button>
+    </form>
+    <div id="contacto-msg" class="contacto-msg"></div>
+  </div>
+</section>
+
+
+
+<section id="login" class="login-section section-full">
+  <div class="login-container">
+  <h2 class="login-title"><svg class="login-icon" viewBox="0 0 24 24"><path d="M12 12c2.7 0 8 1.34 8 4v2H4v-2c0-2.66 5.3-4 8-4zm0-2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" fill="currentColor"/></svg>Login</h2>
+  <p class="login-desc">Para acceder a nuestros cursos, recursos exclusivos y enviar solicitudes, por favor inicia sesión.<br>Tener una sesión activa te permite disfrutar de una experiencia personalizada y segura:</p>
+    <ul class="login-benefits">
+      <li><span class="benefit-icon">✔️</span> Acceso a formaciones y materiales exclusivos</li>
+      <li><span class="benefit-icon">✔️</span> Gestión y seguimiento de tu aprendizaje</li>
+      <li><span class="benefit-icon">✔️</span> Recepción de novedades y eventos personalizados</li>
+      <li><span class="benefit-icon">✔️</span> Privacidad y seguridad de tus datos</li>
+    </ul>
+    <form id="loginForm" class="login-form">
+    <div class="login-field">
+      <label for="usuario">Usuario o Email:</label>
+      <input type="text" id="usuario" name="usuario" placeholder="Tu usuario o email" required>
+    </div>
+    <div class="login-field password-field">
+      <label for="password">Contraseña:</label>
+    <div class="password-container">
+      <input type="password" id="password" name="password" placeholder="Tu contraseña" required>
+      <button type="button" id="togglePassword" class="toggle-password-btn" aria-label="Mostrar u ocultar contraseña">
+        <span id="eyeEmoji"</span>
+        </button>
+      </div>
+      </div>
+      <div class="login-check">
+        <input type="checkbox" id="recordar">
+        <label for="recordar">Recordarme</label>
+      </div>
+      <button type="submit" class="login-btn">
+        <span>Iniciar sesión</span>
+      </button>
+    </form>
+    <div id="login-msg" class="login-msg"></div>
+  </div>
+</section>
+
+
+<footer class="footer-section">
+<div class="footer-container">
+  <div class="footer-social">
+    <a href="https://twitter.com/" target="_blank" class="footer-icon" aria-label="Twitter"><svg viewBox="0 0 24 24" class="footer-svg"><path d="M22.46 5.92c-.8.36-1.67.6-2.57.71a4.48 4.48 0 0 0 1.97-2.48 8.94 8.94 0 0 1-2.83 1.08 4.47 4.47 0 0 0-7.61 4.08A12.7 12.7 0 0 1 3.1 4.86a4.47 4.47 0 0 0 1.38 5.96c-.73-.02-1.42-.22-2.02-.56v.06a4.48 4.48 0 0 0 3.58 4.39c-.3.08-.62.12-.95.12-.23 0-.45-.02-.67-.06a4.47 4.47 0 0 0 4.18 3.11A8.96 8.96 0 0 1 2 19.54a12.67 12.67 0 0 0 6.88 2.02c8.26 0 12.78-6.84 12.78-12.77 0-.19 0-.38-.01-.57a9.05 9.05 0 0 0 2.23-2.3z" fill="currentColor"/></svg></a>
+    <a href="https://facebook.com/" target="_blank" class="footer-icon" aria-label="Facebook"><svg viewBox="0 0 24 24" class="footer-svg"><path d="M22.675 0h-21.35C.594 0 0 .593 0 1.326v21.348C0 23.406.594 24 1.325 24H12.82V14.708h-3.13v-3.622h3.13V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24h-1.918c-1.504 0-1.797.715-1.797 1.763v2.315h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .593 23.406 0 22.675 0" fill="currentColor"/></svg></a>
+    <a href="https://linkedin.com/" target="_blank" class="footer-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" class="footer-svg"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11.5 19h-3v-9h3v9zm-1.5-10.3c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13 10.3h-3v-4.5c0-1.07-.93-2-2-2s-2 .93-2 2v4.5h-3v-9h3v1.2c.41-.66 1.36-1.2 2.25-1.2 1.93 0 3.25 1.57 3.25 3.5v5.5z" fill="currentColor"/></svg></a>
+    <a href="https://instagram.com/" target="_blank" class="footer-icon" aria-label="Instagram"><svg viewBox="0 0 24 24" class="footer-svg"><path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41a4.92 4.92 0 0 1 1.77 1.03 4.92 4.92 0 0 1 1.03 1.77c.17.46.355 1.26.41 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43a4.92 4.92 0 0 1-1.03 1.77 4.92 4.92 0 0 1-1.77 1.03c-.46.17-1.26.355-2.43.41-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41a4.92 4.92 0 0 1-1.77-1.03 4.92 4.92 0 0 1-1.03-1.77c-.17-.46-.355-1.26-.41-2.43C2.212 15.784 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43a4.92 4.92 0 0 1 1.03-1.77A4.92 4.92 0 0 1 5.48 2.68c.46-.17 1.26-.355 2.43-.41C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.012 7.052.07c-1.282.058-2.16.24-2.91.51a6.92 6.92 0 0 0-2.51 1.64A6.92 6.92 0 0 0 .58 4.142c-.27.75-.452 1.628-.51 2.91C.012 8.332 0 8.736 0 12c0 3.264.012 3.668.07 4.948.058 1.282.24 2.16.51 2.91a6.92 6.92 0 0 0 1.64 2.51 6.92 6.92 0 0 0 2.51 1.64c.75.27 1.628.452 2.91.51C8.332 23.988 8.736 24 12 24c3.264 0 3.668-.012 4.948-.07 1.282-.058 2.16-.24 2.91-.51a6.92 6.92 0 0 0 2.51-1.64 6.92 6.92 0 0 0 1.64-2.51c.27-.75.452-1.628.51-2.91.058-1.28.07-1.684.07-4.948 0-3.264-.012-3.668-.07-4.948-.058-1.282-.24-2.16-.51-2.91a6.92 6.92 0 0 0-1.64-2.51A6.92 6.92 0 0 0 19.858.58c-.75-.27-1.628-.452-2.91-.51C15.668.012 15.264 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm7.846-10.406a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" fill="currentColor"/></svg></a>
+  </div>
+<div class="footer-copy">
+      &copy; 2025 Conecta Saber Digital. Todos los derechos reservados.
+</div>
+</div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
