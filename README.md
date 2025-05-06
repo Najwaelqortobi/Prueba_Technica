@@ -140,7 +140,3 @@ Incluye enlaces a redes sociales con iconos SVG y la información legal.
 - [Linkeden](www.linkedin.com/in/najwa-el-qortobi)
 
 ---
-
-**Conecta Saber Digital** - Impulsando la nueva era del conocimiento digital.
-
----
