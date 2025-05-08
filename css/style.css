@@ -281,6 +281,25 @@ html, body {
   margin: 0 auto;
   width: 100%;
 }
+
+.galeria-hint {   
+  margin: 0 auto 1.5rem; 
+  text-align: center;   
+  font-size: 1.08rem;
+  color: #234567;
+  background: #eaf6fbcc;
+  padding: 0.5em 1.2em;
+  border-radius: 1em;
+  box-shadow: 0 2px 8px #a1c4fd33;
+  display: block;
+  font-weight: 600;
+  user-select: none;
+}
+.hint-icon {
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
 .galeria-title {
   color: #234567;
   font-size: 2.3rem;
@@ -663,6 +682,11 @@ html, body {
   text-align: center;
   min-height: 1.5em;
 }
+
+.login-btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 .password-container {
   position: relative;
   display: flex;
@@ -757,6 +781,29 @@ html, body {
   margin-top: 0.7rem;
   opacity: 0.93;
 }
+
+#fecha-actual {
+  color: #f1f1f1;            
+  font-size: 1.05rem;          
+  letter-spacing: 0.03em;     
+  font-weight: 500;           
+  padding: 0.2em 1em;      
+  background: rgba(255,255,255,0.04); 
+  border-radius: 0.8em;        
+  margin-left: auto;           
+  margin-right: 0.5em;         
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-shadow: 0 1px 8px #0002;
+  transition: background 0.2s;
+}
+
+#fecha-actual:hover {
+  background: rgba(255,255,255,0.12); 
+}
+
+
 @media (max-width: 600px) {
   .footer-container {
     padding: 0 0.5rem;

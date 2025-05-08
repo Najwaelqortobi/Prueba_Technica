@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-**Conecta Saber Digital** es una landing page moderna, responsive y accesible que presenta la misión, servicios y valores de una plataforma educativa digital. Incluye navegación intuitiva, galería interactiva, sistema de login/logout, formulario de contacto personalizado y un diseño visual atractivo usando HTML, CSS3.  
+**Conecta Saber Digital** es una landing page moderna, responsive y accesible que presenta la misión, servicios y valores de una plataforma educativa digital. Incluye navegación intuitiva, galería interactiva, sistema de login/logout, formulario de contacto personalizado y un diseño visual atractivo usando HTML, CSS3, Javascript.  
 El objetivo es facilitar el acceso a la formación digital y fomentar el aprendizaje colaborativo en comunidad.
 
 ---
@@ -119,6 +119,7 @@ Incluye enlaces a redes sociales con iconos SVG y la información legal.
 
 - **HTML5**: Estructura semántica del sitio.
 - **CSS3**: Estilos personalizados, variables y animaciones.
+- **Javascript**: Funcionalidades con compartamiento de web dinámica.
 
 ---
 
