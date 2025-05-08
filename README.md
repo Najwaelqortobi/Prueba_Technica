@@ -23,7 +23,7 @@ El objetivo es facilitar el acceso a la formación digital y fomentar el aprendi
 ### Navbar
 
 **Escritorio:**  
-![Navbar Escritorio](assets/capturas/Nav%20Escritorio.png)
+![Navbar Escritorio](assets/capturas/Navbar%20Escritorio.png)
 
 **Vista responsive(Móvil):**  
 ![Navbar Responsive](assets/capturas/Nav%20Responsive.png)
@@ -36,7 +36,7 @@ El objetivo es facilitar el acceso a la formación digital y fomentar el aprendi
 ![Navbar Escritorio](assets/capturas/Home%20Escritorio.png),
 
 **Vista responsive(Móvil):**   
-![Home Responsive](assets/capturas/Home%20responsive.png)
+![Home Responsive](assets/capturas/Home%20Responsive.png)
 
 ---
 
@@ -46,7 +46,7 @@ El objetivo es facilitar el acceso a la formación digital y fomentar el aprendi
 ![About Escritorio](assets/capturas/About%20Escritorio.png)
 
 **Vista responsive(Móvil):**  
-![About Responsive](assets/capturas/About%20Responsive.png)
+![About Responsive](assets/capturas/About%20responsive.png)
 
 ---
 
